@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "253960083452",
+    "project_id": "emoscope-bf5d3",
+    "storage_bucket": "emoscope-bf5d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253960083452:android:4f9f6d03ba363751030479",
+        "android_client_info": {
+          "package_name": "com.example.emoscope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253960083452-lptgj0pce1b2pa899uqjj5erekdsqa75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkro1tTMy0ykr6yH8IIdewNfdJ1Kc_KpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253960083452-lptgj0pce1b2pa899uqjj5erekdsqa75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

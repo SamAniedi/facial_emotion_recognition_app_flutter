@@ -1,0 +1,64 @@
+name: emoscope
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_sign_in: ^6.1.0
+  google_fonts: ^4.0.3
+  camera: ^0.10.3+2
+  image: ^3.2.0
+  flutter_tflite: ^1.0.1
+  flutter_svg: ^2.0.4
+  flutter_youtube_player: ^1.1.0
+  youtube_player_flutter: ^8.1.2
+  vs_scrollbar: ^0.2.1
+  google_ml_kit: ^0.13.0
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.4.2
+  tiktoklikescroller: ^0.2.3
+  sizer: ^2.0.15
+  flutter_cool_card_swiper: ^0.0.4
+
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  sqflite: ^2.2.8+1
+  path_provider: ^2.0.14
+  shared_preferences: ^2.1.0
+  image_picker: ^0.8.7+5
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - lib/assets/images/
+    # - lib/assets/face_model.tflite
+    - lib/assets/labels.txt
+    - lib/assets/haarcascade_frontalface_alt2.xml
+    - lib/assets/images/logo.png
+    - lib/assets/
