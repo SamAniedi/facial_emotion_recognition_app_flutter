@@ -1,16 +1,10 @@
 # emoscope
 
-A new Flutter project.
+A facial emotion detection app
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Emoscope an emotional support app, that was created using the fer2013 dataset and integrated into flutter. 
+It detects the users facial expression and based of the models prediction it offers emotional support to
+the user. And offers redirection to more professional help if the users needs more help. Emoscope serves
+as the first step to the users emotional awareness.
